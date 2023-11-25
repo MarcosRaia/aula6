@@ -32,4 +32,4 @@ jobs:
         aws configure set region us-east-1  # Substitua pela sua região
 
     - name: Copiar para AWS S3
-      run: aws s3 cp your_program.py s3://your-s3-bucket/  # Substitua pelo nome do seu programa e bucket
+      run: aws s3 cp app.py s3://your-s3-bucket/  # Substitua pelo nome do seu programa e bucket
